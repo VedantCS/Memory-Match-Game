@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Match Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Memory Match Game</h1>
+        <div class="theme-selector">
+            <label for="theme">Select Theme:</label>
+            <select id="theme">
+                <option value="fruits">Fruits</option>
+                <option value="emojis">Emojis</option>
+            </select>
+        </div>
+        <div class="game-info">
+            <div class="score">Score: <span id="score">0</span></div>
+            <button id="restartButton">Restart Game</button>
+        </div>
+        <div class="game-board" id="gameBoard"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
